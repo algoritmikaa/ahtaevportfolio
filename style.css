@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(189, 0, 206);
+    padding: 30px;
+}
+
+.link-header {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.link-header:hover {
+    border-bottom: 2px solid black;
+    transition: 1s;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.link-nav {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.link-nav:hover {
+    color: black;
+    transition: 1s;
+}
+
+.islam {
+    text-align: center;
+}
+
+footer {
+    padding: 15px;
+    background-color: rgb(142, 1, 155);
+}
+
+main h1 {
+    text-align: center;
+    text-shadow: 5px 5px 5px grey;
+}
+
+.text-big {
+    text-align: center;
+    text-shadow: 5px 5px 5px grey;
+}
+
+.sites {
+    margin-left: 50px;
+}
+
+.sites a:hover {
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    transition: 1s;
+    color: black;
+}
